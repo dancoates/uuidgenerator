@@ -39,7 +39,7 @@ const Copy = styled.div`
     margin-bottom: -1.8rem;
 `;
 
-const Refresh = styled.div`
+const Refresh = styled.button`
     position: absolute;
     cursor: pointer;
     &:hover {
@@ -50,6 +50,10 @@ const Refresh = styled.div`
     padding: 1rem;
     left: 50%;
     transform: translateX(-50%);
+    outline: none;
+    background: transparent;
+    border: none;
+    color: #C9DAEA;
 `;
 
 const CopyMany = styled.div`
@@ -64,7 +68,7 @@ const CountInput = styled.input`
     background: transparent;
     outline: none;
     border: none;
-    font-family: Menlo, Monaco, monospaced;
+    font-family: Menlo, Monaco, monospace;
     font-size: 1rem;
     margin: 0 0.5rem;
     padding: 0;
